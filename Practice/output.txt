@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+
+		<!-- SP1K3 v4.3.1 -->
+
+		<title>This is SP1K3</title>
+		<meta name="description" content="Casual Flash gaming. Minimal advertising. Good design. Immersive site. This is SP1K3.">
+		<meta name="keywords" content="SP1K3, spike, Flash, games, gaming, best, intensive, unusual, indie">
+
+		<link rel="stylesheet" href="/files/css/normalize.min.css">
+		<link rel="stylesheet" href="/files/css/main.css">
+
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/SP1K3">
+
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script>window.html5 || document.write('<script src="/files/js/vendor/html5shiv.js"><\/script>')</script>
+		<![endif]-->
+
+		<script>
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-9690000-5']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<!-- Facebook JavaScript SDK -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=510683808943203";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="page">
+			<header class="masthead">
+				<div class="wrapper">
+					<h1 class="logo"><a href="/" title="Home">SP1K3</a></h1>
+					<ul class="menu main">
+						<li><a href="/games/new">New games</a></li>
+						<li><a href="/games/popular">Popular games</a></li>
+						<li><a href="/games/random">Random game</a></li>
+					</ul>
+					<ul class="menu categories">
+						<li><a href="/category/action">Action</a></li>
+						<li><a href="/category/adventure">Adventure</a></li>
+						<li><a href="/category/arcade">Arcade</a></li>
+						<li><a href="/category/puzzle-skill">Puzzle &amp; Skill</a></li>
+						<li><a href="/category/shooter">Shooter</a></li>
+						<li><a href="/category/strategy">Strategy</a></li>
+						<li><a href="/category/other">Other</a></li>
+					</ul>
+				</div>
+			</header>
+			<section class="hero">
+				<div class="wrapper">
+					<h1>Featured games</h1>
+					<ul class="featured_games">
+						<li>
+							<a href="/game/armor-mayhem" title="Play Armor Mayhem">
+								<img src="/files/thumbnails/armor-mayhem.png" alt="A thumbnail of Armor Mayhem">
+								<h4>Armor Mayhem</h4>
+								<p>2<sup>nd</sup> February 2011<br>12,616 plays</p>
+							</a>
+						</li>
+						<li>
+							<a href="/game/blosics-2" title="Play Blosics 2">
+								<img src="/files/thumbnails/blosics-2.png" alt="A thumbnail of Blosics 2">
+								<h4>Blosics 2</h4>
+								<p>18<sup>th</sup> February 2010<br>20,457 plays</p>
+							</a>
+						</li>
+						<li>
+							<a href="/game/burrito-bison-revenge" title="Play Burrito Bison Revenge">
+								<img src="/files/thumbnails/burrito-bison-revenge.png" alt="A thumbnail of Burrito Bison Revenge">
+								<h4>Burrito Bison Revenge</h4>
+								<p>12<sup>th</sup> March 2012<br>13,103 plays</p>
+							</a>
+						</li>
+						<li>
+							<a href="/game/islands-of-empire" title="Play Islands of Empire">
+								<img src="/files/thumbnails/islands-of-empire.png" alt="A thumbnail of Islands of Empire">
+								<h4>Islands of Empire</h4>
+								<p>17<sup>th</sup> January 2011<br>3,123 plays</p>
+							</a>
+						</li>
+						<li class="clear"></li>
+					</ul>
+				</div>
+			</section>
+			<section class="content">
+				<div class="wrapper">
+					<aside class="home">
+						<h3>Welcome, friend!</h3>
+						<p>You've stumbled across SP1K3: a humble little Flash gaming website. For the past few years we've been collecting only the very best Flash games. We value style &amp; good design and strive to provide you with the very best Flash gaming platform <small>(unlike many other Flash game sites)</small>. Have fun!</p>
+						<ul class="social_buttons">
+							<li class="facebook">
+								<div class="fb-like" data-href="https://www.facebook.com/Sp1k3" data-layout="button_count" data-send="false" data-width="290" data-show-faces="false" data-font="lucida grande"></div>
+							</li>
+							<li class="twitter">
+								<a href="https://twitter.com/sp1k3" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow @sp1k3</a>
+							</li>
+							<li class="google">
+								<div class="g-plusone" data-size="medium" data-width="290" data-href="http://sp1k3.com/"></div>
+							</li>
+						</ul>
+						<h3>Search games by title</h3>
+						<form action="/search" method="get" class="search">
+							<input name="q" type="search" placeholder="Search games..." class="entry">
+						</form>
+						<h3>New games in your inbox</h3>
+						<p>Enter your email address below. You can unsubscribe at any time with the <em>&quot;Unsubscribe Now&quot;</em> link at the bottom of the emails. Emails delivered by <a href="http://feedburner.google.com" target="_blank">FeedBurner</a>.</p>
+						<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=SP1K3', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" class="subscribe">
+							<input type="email" name="email" placeholder="mail@example.com" class="entry">
+							<input type="hidden" value="SP1K3" name="uri">
+							<input type="hidden" name="loc" value="en_US">
+						</form>
+						<div class="upsilon">
+							<script>
+							google_ad_client = "ca-pub-0245010979250362";
+							google_ad_slot = "4815791109";
+							google_ad_width = 250;
+							google_ad_height = 250;
+							</script>
+							<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+						</div>
+						<h3>Social networks we&rsquo;re on</h3>
+						<ul class="social_boxes">
+							<li class="youtube">
+								<a href="http://www.youtube.com/sp1k3" title="SP1K3 YouTube channel">On our YouTube account, we upload videos of speedruns &amp; walkthroughs.</a>
+							</li>
+							<li class="rss">
+								<a href="http://feeds.feedburner.com/SP1K3" title="SP1K3 games RSS feed">We publish an <abbr title="Really Simple Syndication">RSS</abbr> feed of our games.</a>
+							</li>
+							<li class="tumblr">
+								<a href="http://blog.sp1k3.com/" title="SP1K3 development blog">We also have a development blog on Tumblr, that you could follow.</a>
+							</li>
+							<li class="twitter">
+								<a href="https://twitter.com/sp1k3" title="SP1K3 Twitter profile">We post updates on new games and other various Flash game related things.</a>
+							</li>
+							<li class="facebook">
+								<a href="http://www.facebook.com/Sp1k3" title="SP1K3 Facebook page">Get updates in your Facebook feed on new games on SP1K3.</a>
+							</li>
+						</ul>
+					</aside>
+					<div class="to_the_left">
+						<h2>New games</h2>
+						<ol class="home_game_list">
+							<li>
+								<a href="/game/enough-plumbers-2" title="Play Enough Plumbers 2">
+									<div class="image_clip"><img src="/files/thumbnails/enough-plumbers-2.png" alt="A thumbnail of Enough Plumbers 2" width="133" height="80"></div>
+									<h4>Enough Plumbers 2</h4>
+									<p>Create clones and utilise their special abilities all whilst controlling them simultaneously in this crazy puzzle-platformer. </p>
+									<p>3,440 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/rocket-squirrel" title="Play Rocket Squirrel">
+									<div class="image_clip"><img src="/files/thumbnails/rocket-squirrel.png" alt="A thumbnail of Rocket Squirrel" width="133" height="80"></div>
+									<h4>Rocket Squirrel</h4>
+									<p>Swing and rotate your rocket-squirrel around the orbs, with the goal of collecting all the acorns in each level.</p>
+									<p>2,661 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/viktor-the-nth" title="Play Viktor the Nth">
+									<div class="image_clip"><img src="/files/thumbnails/viktor-the-nth.png" alt="A thumbnail of Viktor the Nth" width="133" height="80"></div>
+									<h4>Viktor the Nth</h4>
+									<p>The player controls one character at a time, and tries to brave the world ahead of him. But it's a race against time and traps and beasts and...</p>
+									<p>2,042 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/bloons-tower-defense-5" title="Play Bloons Tower Defense 5">
+									<div class="image_clip"><img src="/files/thumbnails/bloons-tower-defense-5.png" alt="A thumbnail of Bloons Tower Defense 5" width="133" height="80"></div>
+									<h4>Bloons Tower Defense 5</h4>
+									<p>Bloons TD 5 has heaps of new features including all of your favourite towers from BTD4 with 8 awesome upgrades each instead of 4, and two brand new...</p>
+									<p>9,659 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/symbiosis-greenland" title="Play Symbiosis: Greenland">
+									<div class="image_clip"><img src="/files/thumbnails/symbiosis-greenland.png" alt="A thumbnail of Symbiosis: Greenland" width="133" height="80"></div>
+									<h4>Symbiosis: Greenland</h4>
+									<p>We thought that we had destroyed the alien crystals last time... But one of them hid in the land of Greenland. And the only hope is to use the power...</p>
+									<p>1,331 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/dwarf-coins" title="Play Dwarf Coins">
+									<div class="image_clip"><img src="/files/thumbnails/dwarf-coins.png" alt="A thumbnail of Dwarf Coins" width="133" height="80"></div>
+									<h4>Dwarf Coins</h4>
+									<p>Your mission is to help the tiny miner to excavate all treasures. Use the hammer to destroy stone blocks in order to move the golden coin directly...</p>
+									<p>2,536 plays</p>
+								</a>
+							</li>
+						</ol>
+						<p class="view_more">View <a href="/games/new">more new games</a>.</p>
+						<h2>Popular games</h2>
+						<ol class="home_game_list">
+							<li>
+								<a href="/game/bloons-tower-defense-5" title="Play Bloons Tower Defense 5">
+									<div class="image_clip"><img src="/files/thumbnails/bloons-tower-defense-5.png" alt="A thumbnail of Bloons Tower Defense 5" width="133" height="80"></div>
+									<h4>Bloons Tower Defense 5</h4>
+									<p>Bloons TD 5 has heaps of new features including all of your favourite towers from BTD4 with 8 awesome upgrades each instead of 4, and two brand new...</p>
+									<p>9,659 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/enough-plumbers-2" title="Play Enough Plumbers 2">
+									<div class="image_clip"><img src="/files/thumbnails/enough-plumbers-2.png" alt="A thumbnail of Enough Plumbers 2" width="133" height="80"></div>
+									<h4>Enough Plumbers 2</h4>
+									<p>Create clones and utilise their special abilities all whilst controlling them simultaneously in this crazy puzzle-platformer. </p>
+									<p>3,440 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/super-mario-63" title="Play Super Mario 63">
+									<div class="image_clip"><img src="/files/thumbnails/super-mario-63.png" alt="A thumbnail of Super Mario 63" width="133" height="80"></div>
+									<h4>Super Mario 63</h4>
+									<p>A fan-game inspired by Nintendo's Super Mario 64. Many levels and features are based upon it and other Nintendo games, but a variety of them are...</p>
+									<p>3,948 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/pandemic-ii" title="Play Pandemic II">
+									<div class="image_clip"><img src="/files/thumbnails/pandemic-ii.png" alt="A thumbnail of Pandemic II" width="133" height="80"></div>
+									<h4>Pandemic II</h4>
+									<p>Destroy the human race with your virus, bacteria or parasite. Use deadly or annoying symptoms from sneezing and coughing to necrosis and heart...</p>
+									<p>3,634 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/rocket-squirrel" title="Play Rocket Squirrel">
+									<div class="image_clip"><img src="/files/thumbnails/rocket-squirrel.png" alt="A thumbnail of Rocket Squirrel" width="133" height="80"></div>
+									<h4>Rocket Squirrel</h4>
+									<p>Swing and rotate your rocket-squirrel around the orbs, with the goal of collecting all the acorns in each level.</p>
+									<p>2,661 plays</p>
+								</a>
+							</li>
+							<li>
+								<a href="/game/papas-hot-doggeria" title="Play Papa's Hot Doggeria">
+									<div class="image_clip"><img src="/files/thumbnails/papas-hot-doggeria.png" alt="A thumbnail of Papa's Hot Doggeria" width="133" height="80"></div>
+									<h4>Papa's Hot Doggeria</h4>
+									<p>It's opening day at Griller Stadium but the season tickets are all sold out! Looks like the only way to watch the games is to work for your old pal...</p>
+									<p>7,366 plays</p>
+								</a>
+							</li>
+						</ol>
+						<p class="view_more">View <a href="/games/popular">more popular games</a>.</p>
+					</div>
+				</div>
+			</section>
+			<div class="pre_footer">
+				<div class="wrapper">
+					<div class="epsilon">
+						<script>
+						google_ad_client = "ca-pub-0245010979250362";
+						google_ad_slot = "2231377848";
+						google_ad_width = 728;
+						google_ad_height = 90;
+						</script>
+						<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="wrapper">
+					<p class="right">&copy; 2015 SP1K3 - All rights reserved</p>
+					<p><a href="/about">About us</a> - <a href="/privacy">Privacy policy</a> - <a href="/contact">Contact us</a></p>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Twitter follow button -->
+		<script>
+		window.twttr = (function (d,s,id) {
+			var t, js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+			js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+			return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+		</script>
+
+		<!-- Google +1 button -->
+		<script>
+		  window.___gcfg = {lang: 'en-GB'};
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+
+		<script src="/files/js/home.js"></script>
+	</body>
+</html>
