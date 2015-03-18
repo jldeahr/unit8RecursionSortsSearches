@@ -4,15 +4,15 @@ public class ListMethods
 {
     public static ArrayList makeList(int n)
     {
-        ArrayList tempList = null;
+        ArrayList tempList = new ArrayList();
         if (n <= 0)  // The smallest list we can make
         {
             return tempList;
         }
         else        // All other size lists are created here
         {
+            tempList.add(n);
             makeList(n-1);
-
         }
         return tempList;
     }
