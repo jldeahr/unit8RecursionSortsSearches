@@ -1,24 +1,24 @@
 //********************************************************************
-//  KochSnowflakeViewer.java       Author: Lewis/Loftus/Cocking
+//  TreeViewer.java       Author: Deahr
 //
 //  Demonstrates the use of recursion.
-//  @gcschmit (19 July 2014): converted from an applet to an application
+//  @jldeahr (25 March 2015): converted from an applet to an application
 //********************************************************************
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class KochSnowflakeViewer implements ActionListener
+public class TreeViewer implements ActionListener
 {
-    private final int WIDTH = 400;
-    private final int HEIGHT = 500;
+    private final int WIDTH = 1000;
+    private final int HEIGHT = 1000;
 
     private final int MIN = 1, MAX = 9;
 
     private JButton increase, decrease;
     private JLabel titleLabel, orderLabel;
-    private KochPanel drawing;
+    private TreePanel drawing;
     private JPanel panel, tools;
     private JFrame frame;
 
@@ -27,17 +27,17 @@ public class KochSnowflakeViewer implements ActionListener
     //-----------------------------------------------------------------
     public static void main(String[] args)
     {
-        KochSnowflakeViewer viewer = new KochSnowflakeViewer();
+        TreeViewer viewer = new TreeViewer();
     }
 
-    public KochSnowflakeViewer()
+    public TreeViewer()
     {
         tools = new JPanel ();
         tools.setLayout (new BoxLayout(tools, BoxLayout.X_AXIS));
         tools.setBackground (Color.yellow);
         tools.setOpaque (true);
 
-        titleLabel = new JLabel ("The Koch Snowflake");
+        titleLabel = new JLabel ("The Tree Fractal");
         titleLabel.setForeground (Color.black);
 
         increase = new JButton (new ImageIcon ("increase.gif"));
@@ -59,14 +59,14 @@ public class KochSnowflakeViewer implements ActionListener
         tools.add (Box.createHorizontalStrut (20));
         tools.add (orderLabel);
 
-        drawing = new KochPanel (1);
+        drawing = new TreePanel (1);
 
         panel = new JPanel();
         panel.add (tools);
         panel.add (drawing);
 
         frame = new JFrame();
-        frame.setTitle("Knoch Snowflake");
+        frame.setTitle("Tree Fractal");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(WIDTH, HEIGHT);
         frame.add(panel);
@@ -82,7 +82,7 @@ public class KochSnowflakeViewer implements ActionListener
         int order = drawing.getOrder();
 
         if (event.getSource() == increase)
-            order++;
+           order++; 
         else
             order--;
 
