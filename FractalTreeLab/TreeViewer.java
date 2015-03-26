@@ -11,10 +11,10 @@ import javax.swing.*;
 
 public class TreeViewer implements ActionListener
 {
-    private final int WIDTH = 1000;
+    private final int WIDTH = 1680;
     private final int HEIGHT = 1000;
 
-    private final int MIN = 1, MAX = 9;
+    private final int MIN = 1, MAX = 90;
 
     private JButton increase, decrease;
     private JLabel titleLabel, orderLabel;
